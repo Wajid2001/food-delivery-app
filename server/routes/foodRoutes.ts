@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { getAllFoods, createFood, updateFood, deleteFood } from '../controllers/foodController';
-import { authenticateToken, requireRole } from '../middleware/auth';
+import { getAllFoods, createFood, updateFood, deleteFood } from '../controllers/foodController.js';
+import { authenticateToken, requireRole } from '../middleware/auth.js';
 
 const router = Router();
 

@@ -1,6 +1,6 @@
 import type { Response } from 'express';
-import pool from '../config/db';
-import type { AuthRequest } from '../middleware/auth';
+import pool from '../config/db.js';
+import type { AuthRequest } from '../middleware/auth.js';
 
 export async function getAllFoods(req: AuthRequest, res: Response): Promise<void> {
   const { restaurant_id } = req.query;

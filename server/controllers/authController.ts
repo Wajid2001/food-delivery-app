@@ -1,8 +1,8 @@
 import type { Response } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import pool from '../config/db';
-import type { AuthRequest } from '../middleware/auth';
+import pool from '../config/db.js';
+import type { AuthRequest } from '../middleware/auth.js';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'quickbite_super_secret_key';
 

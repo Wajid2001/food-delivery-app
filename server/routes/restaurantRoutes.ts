@@ -6,8 +6,8 @@ import {
   updateRestaurant, 
   deleteRestaurant,
   addReview
-} from '../controllers/restaurantController';
-import { authenticateToken, requireRole } from '../middleware/auth';
+} from '../controllers/restaurantController.js';
+import { authenticateToken, requireRole } from '../middleware/auth.js';
 
 const router = Router();
 

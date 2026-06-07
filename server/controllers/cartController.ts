@@ -1,6 +1,6 @@
 import type { Response } from 'express';
-import pool from '../config/db';
-import type { AuthRequest } from '../middleware/auth';
+import pool from '../config/db.js';
+import type { AuthRequest } from '../middleware/auth.js';
 
 export async function getCart(req: AuthRequest, res: Response): Promise<void> {
   if (!req.user) {
