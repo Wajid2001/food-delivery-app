@@ -1,4 +1,5 @@
-# QuickBite — Food Delivery Platform
+# QuickBite — Food 
+Delivery Platform
 
 QuickBite is a complete, feature-rich Food Delivery Application featuring a Next.js (App Router) frontend, a Node.js + Express.js backend, and a PostgreSQL database (Neon DB).
 
