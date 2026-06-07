@@ -53,9 +53,10 @@ bun run index.ts
 ```
 
 ### 4. Configure and Launch the Next.js Frontend
-In a new terminal window, initialize and run the frontend development server (runs on `http://localhost:3000`):
+Copy the environment template file and run the frontend development server (runs on `http://localhost:3000`):
 ```bash
 cd client
+cp .env.example .env.local
 bun install
 bun run dev
 ```
