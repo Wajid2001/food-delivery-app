@@ -52,6 +52,7 @@ Launch the Express.js API server (runs on `http://localhost:5001`):
 bun run index.ts
 ```
 
+
 ### 4. Configure and Launch the Next.js Frontend
 
 Copy the environment template file and run the frontend development server (runs on `http://localhost:3000`):
