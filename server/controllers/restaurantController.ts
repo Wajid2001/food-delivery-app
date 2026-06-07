@@ -1,6 +1,6 @@
-import { Response } from 'express';
+import type { Response } from 'express';
 import pool from '../config/db';
-import { AuthRequest } from '../middleware/auth';
+import type { AuthRequest } from '../middleware/auth';
 
 export async function getAllRestaurants(req: AuthRequest, res: Response): Promise<void> {
   try {
